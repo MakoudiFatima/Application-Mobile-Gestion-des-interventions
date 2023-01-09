@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ulan.Intervention"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logomark"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logomark"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.ulan.Intervention.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+
+        <activity
+            android:name="com.ulan.Intervention.activities.NotesActivity"
+            android:label="Notes"
+            android:parentActivityName="com.ulan.Intervention.activities.DashboardActivity" />
+        <activity
+            android:name="com.ulan.Intervention.activities.NoteInfoActivity"
+            android:label="Notes"
+            android:parentActivityName="com.ulan.Intervention.activities.NotesActivity" />
+        <activity
+            android:name="com.ulan.Intervention.activities.JobsActivity"
+            android:label="JOBS"
+            android:parentActivityName="com.ulan.Intervention.activities.DashboardActivity" />
+        <activity
+            android:name="com.ulan.Intervention.activities.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName="com.ulan.Intervention.activities.DashboardActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ulan.Intervention.activities.DashboardActivity" />
+        </activity>
+        <activity
+            android:name="com.ulan.Intervention.activities.InterventionsActivity"
+            android:label="Listes RDV"
+            android:parentActivityName="com.ulan.Intervention.activities.DashboardActivity" />
+        <activity
+            android:name="com.ulan.Intervention.activities.InterventionsFaitActivity"
+            android:label="INTERVENTIONS Faits"
+            android:parentActivityName="com.ulan.Intervention.activities.DashboardActivity" />
+        <activity
+            android:name="com.ulan.Intervention.activities.InterventionsAnnuleActivity"
+            android:label="INTERVENTIONS Annulés"
+            android:parentActivityName="com.ulan.Intervention.activities.DashboardActivity" />
+        <activity
+            android:name="com.ulan.Intervention.activities.InterventionsReporteActivity"
+            android:label="INTERVENTIONS Reportés"
+            android:parentActivityName="com.ulan.Intervention.activities.DashboardActivity" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:label="Registration"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".activities.DashboardActivity"></activity>
+
+        <receiver
+            android:name="com.ulan.Intervention.utils.DailyReceiver"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.ulan.Intervention.utils.WakeUpAlarmReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

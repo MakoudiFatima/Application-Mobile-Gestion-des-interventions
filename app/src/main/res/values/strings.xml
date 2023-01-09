@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_Logout">Déconnecter</string>
+
+    <!-- Fragments strings -->
+    <string name="quotidiennes">Quotidiennes</string>
+    <string name="hebdomadaires">Hebdomadaires</string>
+    <string name="mensuelles">Mensuelles</string>
+    <string name="annuelles">Annuelles</string>
+
+    <string name="select_snackbar">Selectionner un choix </string>
+    <string name="selected">Selectionné</string>
+
+    <!-- Main Activity strings -->
+    <string name="interventions">INTERVENTION</string>
+    <string name="gmail_com">interventions@gmail.com</string>
+    <string name="seven_days_of_the_week">7 Days of the Week</string>
+    <string name="type">Type</string>
+    <string name="field_error">field can not be empty!</string>
+    <string name="time_error">Time field can not be empty!</string>
+    <string name="week">Week</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+
+    <string name="add_intervention">Ajouter Intervention</string>
+    <string name="edit_intervention">Editer Intervention</string>
+    <string name="client">Client</string>
+    <string name="number">N° tél</string>
+    <string name="time">Time</string>
+    <string name="recette">Recette</string>
+    <string name="status">Status</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="time_to_dialog">To:</string>
+    <string name="time_from_dialog">From:</string>
+    <string name="type_dialog">Type:</string>
+    <string name="client_dialog">Client:</string>
+    <string name="number_dialog">N°tel:</string>
+    <string name="adresse_dialog">Adresse:</string>
+    <string name="prix_dialog">Prix:</string>
+    <string name="recette_dialog">Payé /Non payé:</string>
+    <string name="status_dialog">Fait/Annulé/Reporté</string>
+    <string name="select_time">Selectionner heure</string>
+    <string name="select_color">Selectionner coleur</string>
+    <string name="choose_time">Choisie heure</string>
+    <string name="choose_date">Choisie date</string>
+    <string name="choose_color">Choisie coleur</string>
+
+    <!-- Homeworks Activity strings -->
+    <string name="title_activity_homeworks">HomeworksActivity</string>
+    <string name="homeworks">Homeworks</string>
+    <string name="select_date">Selectionner date</string>
+    <string name="deadline_dialog">Deadline:</string>
+    <string name="deadline">Deadline</string>
+    <string name="description_dialog">Description:</string>
+    <string name="desctiption">Desctiption</string>
+    <string name="date_error">Date field can not be empty!</string>
+    <string name="edit_homework">Edit homework</string>
+    <string name="add_homework">Add homework</string>
+    <string name="deadline_snackbar">"Deadline field can not be empty!</string>
+    <string name="date">Date</string>
+
+    <!-- Notes Activity strings -->
+    <string name="notes">Notes</string>
+    <string name="title_dialog">Title:</string>
+    <string name="add_note">Add note</string>
+    <string name="edit_note">Edit note</string>
+    <string name="title_error">Title field can not be empty!</string>
+    <string name="title">Title</string>
+    <string name="saved">Saved</string>
+
+    <!-- Teachers Activity strings -->
+    <string name="jobs">Jobs</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="edit_employee">Edit Employee</string>
+    <string name="name_Employee"> Full Name :</string>
+    <string name="post_Employee">Post:</string>
+    <string name="phonenumber_Employee">Phone:</string>
+    <string name="email_Employee">Email:</string>
+    ////////////////////////edit////////////////////////
+    <string name="name">Full Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="post">Post</string>
+    <string name="email">Email</string>
+
+    <!-- Intervention Activity strings -->
+    <string name="intervention">Interventions</string>
+    <string name="add_interventions">Add Intervention</string>
+    <string name="date_dialog">Date:</string>
+    <string name="time_dialog">Time:</string>
+
+    <!-- Settings Activity strings -->
+    <string name="sevendays_setting">Enable 7 Days of the Week</string>
+    <string name="school_website_setting">Change school website</string>
+    <string name="school_website_setting_summary">Change URL of your school website</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Today\'s lessons</string>
+    <string name="do_not_have_lessons">You do not have lessons!</string>
+
+</resources>
